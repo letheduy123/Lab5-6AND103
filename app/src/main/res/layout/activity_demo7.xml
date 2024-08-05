@@ -23,13 +23,17 @@
         android:hint="Nhập vào mô tả"
 
         android:id="@+id/txt3"/>
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
+
         android:id="@+id/btnSelect"
+
         android:text="Select"
         />
     <Button
@@ -37,9 +41,30 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:id="@+id/btnKetQua"
-        android:text="ket qua"
+        android:id="@+id/btnDelete"
+        android:layout_marginLeft="150dp"
+        android:text="Delete"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/btnInsert"
+        android:layout_marginLeft="150dp"
+        android:text="Insert"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/btnUpdate"
+        android:layout_marginLeft="150dp"
+        android:text="Update"
+   />
+</LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
